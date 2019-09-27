@@ -34,7 +34,7 @@ class TicTacToe
       array[index] = value
     end
 
-    update_array(board, index, value)
+    update_array(@board, index, value)
 
   end
 
