@@ -7,6 +7,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 
-TicTacToe.new
+TicTacToe.new = new_game
 
-play
+play(new_game)
