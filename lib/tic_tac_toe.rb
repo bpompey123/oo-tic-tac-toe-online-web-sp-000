@@ -27,6 +27,17 @@ class TicTacToe
     user_input.to_i - 1
   end
 
+  def def move(board, index, value)
+
+    def update_array(array, index, value)
+
+      array[index] = value
+    end
+
+    update_array(board, index, value)
+
+  end
+
 
 
 end
