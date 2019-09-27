@@ -47,6 +47,13 @@ class TicTacToe
     end
   end
 
+  def valid_move?(index)
+    if @board[index] == " " && index.between?(0,8)
+      return true
+    else
+      return false
+    end
+  end
 
 
 end
